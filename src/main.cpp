@@ -9,7 +9,6 @@ class $modify(GJGarageLayer) {
 			return false;
 		auto winSize = CCDirector::sharedDirector()->getWinSize();
 
-	/* */
 		auto demonIcon = CCSprite::createWithSpriteFrameName("diffIcon_06_btn_001.png");
 		demonIcon->setPosition({winSize.width - 18, winSize.height - 117});
 		demonIcon->setAnchorPoint({0.5, 0.5});

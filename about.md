@@ -1,3 +1,3 @@
-# Template Mod
+# Demons In Garage 2.2
 
-Edit about.md to change this
+Demons In Garage, now for 2.2!
