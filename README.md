@@ -1,3 +1,3 @@
-# DemonsInGarage2.2
+# Demons In Garage 2.2
 
-This is where she makes a mod.
+Demons In Garage, now for 2.2!
