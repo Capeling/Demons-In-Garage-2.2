@@ -1,9 +1,10 @@
 {
 	"geode": "2.0.0",
-	"version": "v1.1.1",
+	"version": "v1.1.2",
 	"id": "capeling.demons_in_garage_2.2",
 	"name": "Demons In Garage 2.2",
 	"developer": "Capeling",
+	"repo"
 	"gd": {
 		"win": "2.204",
 		"android": "2.205"
