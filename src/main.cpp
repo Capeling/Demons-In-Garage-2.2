@@ -16,7 +16,7 @@ class $modify(GJGarageLayer) {
 
 		CCDictionary* stats = GameStatsManager::sharedState()->m_playerStats;
 		CCLabelBMFont* demonText = CCLabelBMFont::create(std::to_string(stats->valueForKey("5")->intValue()).c_str(), "bigFont.fnt");
-		demonText->setPosition({demonIcon->getPositionX() - 12, as<CCNode*>(this->getChildren()->objectAtIndex(29))->getPositionY() - 15});
+		demonText->setPosition({demonIcon->getPositionX() - 12, this->getChildByID("diamond-shards-label")->getPositionY() - 15});
 		demonText->setScale({0.34});
 		demonText->setAnchorPoint({1, 0.5});
 
