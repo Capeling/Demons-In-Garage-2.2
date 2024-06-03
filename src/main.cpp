@@ -13,14 +13,14 @@ class $modify(GJGarageLayer) {
 		demonIcon->setPosition({winSize.width - 18, winSize.height - 117});
 		demonIcon->setAnchorPoint({0.5, 0.5});
 		demonIcon->setScale({0.5});
-		demonIcon->setID("demons-icon");
+		demonIcon->setID("demons-icon"_spr);
 
-		CCDictionary* stats = GameStatsManager::sharedState()->m_playerStats;
-		CCLabelBMFont* demonText = CCLabelBMFont::create(std::to_string(stats->valueForKey("5")->intValue()).c_str(), "bigFont.fnt");
-		demonText->setPosition(ccp(demonIcon->getPositionX() - 12, this->getChildByID("diamond-shards-label")->getPositionY() - 15));
+		GameStatsManager* GSM = GameStatsManager::sharedState();
+		CCLabelBMFont* demonText = CCLabelBMFont::create(std::to_string(GSM->getStat("5")).c_str(), "bigFont.fnt");
+		demonText->setPosition(winSize.width - 30, winSize.height - 117);
 		demonText->setScale({0.34});
 		demonText->setAnchorPoint({1, 0.5});
-		demonText->setID("demons-label");
+		demonText->setID("demons-label"_spr);
 
 		this->addChild(demonIcon);
 		this->addChild(demonText);

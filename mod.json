@@ -1,20 +1,21 @@
 {
-	"geode": "2.0.0",
-	"version": "v1.1.4",
-	"id": "capeling.demons_in_garage_2.2",
-	"name": "Demons In Garage 2.2",
+	"geode": "2.0.0-beta.27",
+	"version": "v1.2.0",
+	"id": "capeling.demons_in_garage",
+	"name": "Demons In Garage",
 	"developer": "Capeling",
-	"dependencies": [
-        {
-            "id": "geode.node-ids",
-            "version": "v1.3.0",
-            "importance": "required"
-        }
-    ],
+"incompatibilities": [
+	{
+		"id": "capeling.demons_in_garage_2.2",
+		"version": "*",
+		"importance": "superseded"
+	}
+],
 	"repository": "https://github.com/Capeling/Demons-In-Garage-2.2",
 	"gd": {
-		"win": "2.204",
-		"android": "2.205"
+		"win": "2.206",
+		"android": "2.206",
+		"mac": "2.206"
 	},
-	"description": "Adds your demon count to the garage! Now for 2.2!"
+	"description": "Adds your demon count to the garage!"
 }
