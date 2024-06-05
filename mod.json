@@ -1,16 +1,16 @@
 {
-	"geode": "2.0.0-beta.27",
+	"geode": "3.0.0-alpha.1",
 	"version": "v1.2.0",
 	"id": "capeling.demons_in_garage",
 	"name": "Demons In Garage",
 	"developer": "Capeling",
-"incompatibilities": [
-	{
-		"id": "capeling.demons_in_garage_2.2",
-		"version": "*",
-		"importance": "superseded"
-	}
-],
+	"incompatibilities": [
+		{
+			"id": "capeling.demons_in_garage_2.2",
+			"version": "*",
+			"importance": "superseded"
+		}
+	],
 	"repository": "https://github.com/Capeling/Demons-In-Garage-2.2",
 	"gd": {
 		"win": "2.206",
