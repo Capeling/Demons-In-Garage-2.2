@@ -1,4 +1,6 @@
 # Demons In Garage 2.2 Changelog
+## v1.2.1
+- Switch to using the [Stats Display API](https://github.com/Capeling/garage-stats-menu)
 ## v1.2.0
 - Updated for 2.206
 ## v1.1.4

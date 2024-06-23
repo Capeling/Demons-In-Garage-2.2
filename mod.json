@@ -1,6 +1,6 @@
 {
-	"geode": "3.0.0-beta.1",
-	"version": "v1.2.0",
+	"geode": "3.0.0-beta.5",
+	"version": "v1.2.1",
 	"id": "capeling.demons_in_garage",
 	"name": "Demons In Garage",
 	"developer": "Capeling",
@@ -17,5 +17,12 @@
 		"android": "2.206",
 		"mac": "2.206"
 	},
-	"description": "Adds your demon count to the garage!"
+	"description": "Adds your demon count to the garage!",
+	"dependencies": [
+		{
+			"id": "capeling.garage-stats-menu",
+			"version": ">=v1.0.0",
+			"importance": "required"
+		}
+	]
 }
